@@ -5,7 +5,7 @@ import { CapacitorHttp } from '@capacitor/core';
   providedIn: 'root'
 })
 export class HttpService {
-  MAP_ACCESS_TOKEN = 'pk.49d15f7371e82f7f19e89e2ca39a5a9e';
+  MAP_ACCESS_TOKEN = '';
 
   constructor() { }
 
