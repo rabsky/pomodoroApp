@@ -9,12 +9,14 @@
 <ion-content [fullscreen]="true">
     <div id="timezone-text">
         You are in the {{ defaultTimeZone }} timezone<br>
-        You are located in: <br> 
+        You are located in: <br>
         latitude: {{ location.lat }} <br>
         longitude: {{ location.lng }} <br>
-        
+        <div>
+          {{ locationData }}
+        </div>
     </div>
     <div id="timezone-date">
-         
+
     </div>
 </ion-content>
